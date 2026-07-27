@@ -1,12 +1,12 @@
-# 🏠 Real Estate Price Prediction
+#  Real Estate Price Prediction
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes the **King County Housing Dataset** to uncover insights into property features and their impact on house prices.  
 It builds a **Linear Regression model** to predict housing prices based on features such as square footage, bedrooms, bathrooms, and location.  
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 - Dataset Overview  
 - Exploratory Data Analysis (EDA)  
 - Feature Engineering  
@@ -19,7 +19,7 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## 📂 Dataset Overview
+##  Dataset Overview
 **File:** `kc_house_data.csv`
 
 **Columns:**
@@ -32,7 +32,7 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 - Distribution of house prices  
 - Correlation between features and price  
 - Impact of square footage on price  
@@ -40,7 +40,7 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## 🛠 Feature Engineering
+##  Feature Engineering
 - Converted `date` into **year, month, day** features  
 - Selected key numerical features (`sqft_living`, `bedrooms`, `bathrooms`)  
 - Applied preprocessing pipelines:  
@@ -49,7 +49,7 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## 🤖 Model Building
+##  Model Building
 **Algorithm:** Linear Regression  
 
 **Steps:**
@@ -59,33 +59,27 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## 📸 Visualizations
+##  Visualizations
 
-### 1. Price Distribution
-![Price Distribution](images/price_distribution.png)
+### 1. Correlation Heatmap
+![Correlation Heatmap](heat_map.jpeg)
 
-### 2. Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+### 2. Actual vs Predicted Prices
+![Actual vs Predicted](actual_predict.jpeg)
 
-### 3. Sqft Living vs Price
-![Sqft vs Price](images/sqft_vs_price.png)
-
-### 4. Actual vs Predicted Prices
-![Actual vs Predicted](images/actual_vs_predicted.png)
-
-### 5. Residuals Distribution
-![Residuals](images/residuals.png)
+### 3. Features
+![Features](features.jpeg)
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 - **R² Score:** ~0.65  
 - **MAE:** 125,000 (approx.)  
 - **RMSE:** 180,000 (approx.)  
 
 ---
 
-## 🧩 Key Insights
+##  Key Insights
 - **Sqft Living** is the most influential feature in predicting price.  
 - Houses with higher grades and better condition tend to have higher prices.  
 - Waterfront properties show significantly higher average prices.  
@@ -93,7 +87,13 @@ It builds a **Linear Regression model** to predict housing prices based on featu
 
 ---
 
-## ▶️ How to Run
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Akshaya2472006/Real-Estate_prediction.git
+##  Map Visualization
+![Map of Housing Locations](map.jpeg)
+
+-------
+
+## Author
+Akshaya  
+BCA Student at Kamaraj College
+
+
